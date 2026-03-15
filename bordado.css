@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(imagens/bordado_foto.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.logo{
+    height: 100px;
+    border-radius: 30px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.texto_sobre{
+    
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicos-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.foto_uniforme, .foto_personalizacao, .foto_acabamento{
+    background-color: transparent;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.item1_portfolio{
+    background-color: transparent;
+    height: 150px;
+    border-radius: 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.texto_bordado, .texto_personalizacao, .texto_acabamento{
+    color: black;
+}
+
+.servico{
+    flex: 1 1 200px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item{
+    flex: 1 1 200px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+button:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+h1, h2, p{
+    color: #ffffff;
+}
